@@ -18,8 +18,3 @@ You may use any database to store your data. Preferably PostgreSQL.
 
 #Guide to run project
 
-##Lombok
-I used the lombok to facilitates many tedious tasks and reduces Java source code verbosity.
-Please install plugin lombok to your ide following the instruction below:
-https://www.baeldung.com/lombok-ide
-
