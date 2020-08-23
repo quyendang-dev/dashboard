@@ -12,12 +12,12 @@ class AppHeader extends Component {
       <Header key="header" className="app-header">
         <Layout className="ant-layout-header">
           <Row>
-            <Col span={3} offset={21} style={{color: "white", fontSize: 18}}>
-              Wellcome, {this.props.currentUser.username}
+            <Col span={4} offset={20} style={{color: "white", fontSize: 18}}>
+              Wellcome, {this.props.currentUser.name}
             </Col>
           </Row>
           <Row>
-            <Col span={3} offset={21}>
+            <Col span={4} offset={20}>
               <Button
                 className="logout-button"
                 type="ghost"
