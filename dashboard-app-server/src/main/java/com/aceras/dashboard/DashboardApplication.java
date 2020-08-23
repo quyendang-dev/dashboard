@@ -37,7 +37,8 @@ public class DashboardApplication {
     @Bean
     CommandLineRunner runner() {
         return args -> {
-//            Save demo data after start
+//            Save demo data after start (only run first time)
+            productRepository.deleteAll();
             productRepository.save(new Product("IP1","Iphone 1","Iphone generation 1st",AppConstants.PRODUCT_STATUS_AVAILABLE, AppConstants.PRODUCT_TYPE_OLD_FASHION));
             productRepository.save(new Product("IP2","Iphone 2","Iphone generation 2nd",AppConstants.PRODUCT_STATUS_STOPPED, AppConstants.PRODUCT_TYPE_OUT_OF_STOCK));
             productRepository.save(new Product("IP3","Iphone 3","Iphone generation 3rd",AppConstants.PRODUCT_STATUS_AVAILABLE, AppConstants.PRODUCT_TYPE_OLD_FASHION));
