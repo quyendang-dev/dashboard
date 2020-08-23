@@ -9,7 +9,6 @@ import {
   Statistic,
   Table,
   Form,
-  Divider,
 } from "antd";
 import { withRouter } from "react-router-dom";
 import { getProductByConditions } from "../util/APIUtils";
@@ -247,7 +246,6 @@ class Dashboard extends Component {
 
           <Layout className="product-container">
             <Table 
-              bordered = "enable"
               size="middle"
               rowKey={(record) => record.id}
               columns={columns}

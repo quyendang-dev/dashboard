@@ -17,4 +17,4 @@ You may use any database to store your data. Preferably PostgreSQL.
 4.       You may design how the data should be render based on the data pulled from DB. However, whenever the filtering item change and apply, then the data on the dashboard shall refresh to reflect the selected accordingly.
 
 #Guide to run project
-
+Please read the "dashboard demo.docx" 
