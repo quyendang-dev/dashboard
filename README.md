@@ -18,3 +18,6 @@ You may use any database to store your data. Preferably PostgreSQL.
 
 #Guide to run project
 Please read the "dashboard demo.docx" 
+
+#Deployed in HerokuApp
+Demo https://dashboard-react-springboot.herokuapp.com/
